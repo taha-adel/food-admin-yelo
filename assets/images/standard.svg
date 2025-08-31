@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="268px" height="360px" viewBox="0 0 268 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>standard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="standard">
+            <circle id="Oval" stroke="#000000" stroke-width="4" cx="131.8665" cy="131.8665" r="98"></circle>
+            <circle id="Oval" stroke="#000000" stroke-width="12" cx="131.8665" cy="131.8665" r="125.8665"></circle>
+            <polygon id="Star" fill="#000000" points="131.8665 165.59423 92.2171749 186.439114 99.7895222 142.288942 67.7125443 111.021616 112.041837 104.580193 131.8665 64.411039 151.691163 104.580193 196.020456 111.021616 163.943478 142.288942 171.515825 186.439114"></polygon>
+            <polyline id="Path-2" stroke="#000000" stroke-width="12" transform="translate(59.554614, 288.289306) rotate(8.000000) translate(-59.554614, -288.289306) " points="49.9327094 233.11835 19 325.119866 54.0896477 314.426755 72.5760134 343.460262 100.109228 250.099072"></polyline>
+            <polyline id="Path-2-Copy" stroke="#000000" stroke-width="12" transform="translate(209.542227, 284.355360) scale(-1, 1) rotate(12.000000) translate(-209.542227, -284.355360) " points="199.920322 229.184404 168.987613 321.18592 204.07726 310.492809 222.563626 339.526316 250.096841 246.165126"></polyline>
+        </g>
+    </g>
+</svg>

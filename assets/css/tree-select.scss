@@ -1,0 +1,57 @@
+@import '/src/assets/css/variables';
+.tree-select {
+  .tree-toggle{
+    &::after{
+      content: '\25bc';
+    }
+    right: 0;
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: all .2s;
+    z-index: 1;
+    cursor: pointer;
+    &:hover{
+      color: $color-blue;
+    }
+  }
+  .tree-select-input {
+    height: 28px;
+    resize: none;
+  }
+  .treeContainer{
+    opacity: 0;
+    display: none;
+    width: 100%;
+    box-shadow: 0px 1px 1px 1px #979797;
+    z-index: 20;
+    background: #fff;
+    border-radius: 0 0 2px 2px;
+    transition: all .4s linear;
+    position: absolute;
+  }
+  &.open{
+    .treeContainer{
+      opacity: 1;
+      display: block;
+    }
+    .tree-toggle{
+      transform: rotate(-180deg);
+    }
+  }
+}
+
+:host ::ng-deep ul.ui-tree-container{
+  padding: 5px;
+  li{
+    list-style-type: none;
+  }
+}
+
+:host ::ng-deep .ui-treenode-leaf .fa-caret-right{
+  opacity: 0;
+}
+:host ::ng-deep .ui-treenode-content-selected .fa-circle-o::before{
+  content: '\f05d';
+  color: $color-blue;
+}

@@ -1,0 +1,26 @@
+@import '/src/assets/css/variables';
+:host ::ng-deep .ui-overlaypanel {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  z-index: 3000!important;
+  background: #282828;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: .5px;
+  font-family: $inter;
+  max-width: 276px;
+}
+
+:host ::ng-deep .ui-overlaypanel-content {
+  padding: 0.5em 1em;
+}
+
+:host ::ng-deep .ui-overlaypanel-close {
+  position: absolute;
+  top: -.5em;
+  right: -.5em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}

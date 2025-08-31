@@ -1,0 +1,18 @@
+[
+    {
+        "Product Id*":0,
+        "Product Price*":0,
+        "Surge": 0,
+        "Admin Commission": 0,
+        "Agent Commission": 0,
+        "Merchant Commission" : 0,
+        "Start Date" : "",
+        "Start Time" : "",
+        "End Date" : "",
+        "End Time" : "",
+        "Agent Tag" : "",
+        "Product Name":"",
+        "surge_slot_id": 0,
+        "Is Deleted": 0
+    }
+]

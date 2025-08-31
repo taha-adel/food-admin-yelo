@@ -1,0 +1,17 @@
+@import "./variables.scss";
+
+.heading {
+  font-size: 18px;
+  color: $heading-font-color;
+  font-family: $inter;
+}
+.subheading {
+  font-size: 14px;
+  color: $heading-font-color;
+  font-family: $inter;
+}
+.childheading {
+  color: $heading-font-color;
+  font-size: 12px;
+  font-family: $inter;
+}

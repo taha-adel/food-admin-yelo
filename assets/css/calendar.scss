@@ -1,0 +1,92 @@
+@import "/src/assets/css/variables";
+
+:host ::ng-deep .ui-datepicker {
+  background-color: white;
+}
+:host ::ng-deep
+  .ui-datepicker.ui-widget
+  .ui-datepicker-calendar
+  td
+  a.ui-state-highlight {
+  background-color: $color-blue;
+  color: white;
+}
+:host ::ng-deep .ui-datepicker.ui-widget .ui-datepicker-calendar td {
+  //border-bottom: 1px solid rgba(213, 213, 213, 0.5);
+  padding: 0;
+  a {
+    text-align: center;
+    color: black;
+    padding: 8px;
+  }
+}
+:host
+  ::ng-deep
+  .ui-datepicker.ui-widget
+  .ui-datepicker-calendar
+  td
+  a.ui-state-highlight {
+  background-color: #d6d6d6;
+  color: #f2f2f2;
+  border-radius: 50%;
+}
+:host ::ng-deep .ui-datepicker.ui-widget .ui-datepicker-calendar tr:last-child td {
+  border-bottom: 0 none;
+}
+:host
+  ::ng-deep 
+  .ui-datepicker
+  .ui-datepicker-calendar
+  td:not(.ui-state-disabled)
+  a:hover {
+  border-color: #c0c0c0;
+  background: #eeeeee;
+  color: #212121;
+  border-radius: 50%;
+}
+:host
+  ::ng-deep
+  .ui-datepicker.ui-widget
+  .ui-datepicker-calendar
+  td
+  a.ui-state-active {
+  background-color: $color-blue;
+  color: #ffffff;
+  border-radius: 50%;
+}
+:host ::ng-deep .ui-datepicker.ui-widget .ui-datepicker-calendar td a.ui-state-disabled {
+  opacity: 0.3;
+}
+:host ::ng-deep .ui-calendar {
+  width: 100%;
+  display: flex;
+  // box-shadow: rgba(69, 65, 78, 0.08) 0px 1px 15px 1px;
+  .ui-inputtext {
+    padding: 09px;
+    border-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    height: 34px;
+    line-height: 34px;
+    width: 100%;
+    border: 1px solid #ddd;
+    // border-radius: 0;
+    font-size: 14px;
+  }
+}
+:host ::ng-deep .ui-button-text.ui-clickable {
+  display: none;
+}
+:host ::ng-deep .ui-calendar .ui-calendar-button {
+  background-color: $color-blue;
+  color: $color-white;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: auto!important;
+}
+
+:host ::ng-deep .ui-calender input:hover {
+  outline: #fff auto 5px !important;
+}

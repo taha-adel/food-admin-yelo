@@ -1,0 +1,89 @@
+@import './variables.scss';
+
+:host ::ng-deep .p-toast-message-content{
+    // padding: 10px !important;
+
+}
+// :host ::ng-deep .ui-toast-message-success{
+//     color: white;
+//     background-color: #31b744;
+//     .ui-toast-icon{
+//         // display:none!important;
+//         align-self: center;
+//         background-image: url('/assets/images/shield.svg');
+//         width: 20px;
+//         height: 20px;
+//         background-repeat: no-repeat;
+//         background-position: center;
+//         background-size: contain;
+//         &::before{
+//             font-family: 'yelo-font' !important;
+//             content: unset !important;
+//         }
+//     }
+// }
+// :host ::ng-deep .ui-toast-message-error{
+//         background-color: #d0021b;
+//         color: white;
+//         .ui-toast-icon{
+//             align-self: center;
+//             &::before{
+//                 font-family: 'yelo-font' !important;
+//                 content:'\e94e'!important;
+//             }
+//         }
+// }
+@media(max-width:768px){
+:host ::ng-deep .p-toast-message{
+    position: fixed;
+    bottom: 20px!important;
+    left: 20px!important;
+    max-width: calc(100vw - 50px);
+    min-width: 20em;
+    // max-height: calc(100vw - 100px);
+    width: fit-content;
+    top: auto!important;
+    // border-radius: 4px;
+    // padding: 10px;
+}
+}
+// :host ::ng-deep .ui-growl-title{
+//     display: none!important;
+// }
+:host ::ng-deep .p-toast-icon-close	{
+    // position: absolute;
+    // top: 5px;
+    // right: 5px;
+    // font-size: 15px;
+    // cursor: pointer;
+    // text-decoration: none;
+}
+// :host ::ng-deep .ui-toast-message-text-content{
+//     width: calc(100% - 10px);
+//     padding: 10px;
+//     font-size: 15px;
+//     font-weight: normal;
+//     font-style: normal;
+//     font-stretch: normal;
+//     line-height: normal;
+//     letter-spacing: normal;
+//     color: #ffffff;
+//     .ui-toast-detail{
+//         font-family: $mont-light;
+//     }
+// }
+// :host ::ng-deep .p-toast-icon-close	{
+//     color: #ddd;
+// }
+:host ::ng-deep .p-toast .p-toast-message {
+    // z-index: 3010!important;
+}
+
+// @media (max-width: 335px) {
+//     :host ::ng-deep .p-toast-message {
+//         min-width: 16em;
+//     }
+// }
+
+
+

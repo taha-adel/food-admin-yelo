@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="531" height="97" viewBox="0 0 531 97">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#FFF" font-family="Inter" font-size="60" letter-spacing=".06" transform="translate(-4 -4)">
+            <tspan x="44.64" y="55">GET</tspan> <tspan x="0" y="108">UPTO</tspan>
+        </text>
+        <text fill="#2396FF" font-family="Inter" font-size="140" font-weight="bold" letter-spacing=".14" transform="translate(-4 -4)">
+            <tspan x="169" y="164">40%</tspan>
+        </text>
+        <text fill="#FFF" font-family="Inter" font-size="40" font-weight="bold" letter-spacing=".04" transform="translate(-4 -4)">
+            <tspan x="460" y="99">OFF</tspan>
+        </text>
+    </g>
+</svg>

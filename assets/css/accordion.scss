@@ -1,0 +1,30 @@
+@import '/src/assets/css/variables';
+:host ::ng-deep .ui-accordion{
+     margin-bottom: 20px;
+}
+:host ::ng-deep .ui-accordion .ui-accordion-header{
+    background-color: #fff;
+    border-color: #ddd;
+    transition: 0.4s;
+    text-align: left;
+    border-bottom: 1px solid rgba(115, 100, 100, 0.2);
+}
+:host ::ng-deep .ui-accordion .ui-accordion-content-wrapper{
+    .ui-accordion-content:not(:last-child) {
+        border-bottom: 1px solid rgba(115, 100, 100, 0.2);
+    }
+    // margin-top: 20px;
+}
+:host ::ng-deep .ui-accordion .ui-accordion-header a{
+    padding: 1em;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    display: flex;
+    &:hover{
+        text-decoration: none;
+        color: $color-blue
+    }
+}
+:host ::ng-deep .p-accordion .p-accordion-header:not(.p-disabled) .p-accordion-header-link:hover {
+    text-decoration: none;
+  }

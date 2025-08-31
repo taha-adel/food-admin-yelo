@@ -1,0 +1,12 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="20" cy="20" r="20" fill="#E5F1FF"/>
+    <path opacity=".3" fill-rule="evenodd" clip-rule="evenodd" d="M17.956 15.865a1.336 1.336 0 0 1 0 2.671h-4.45a1.335 1.335 0 1 1 0-2.67h4.45zm8.015 7.123a1.336 1.336 0 0 1 0 2.67h-4.45a1.335 1.335 0 0 1 0-2.67h4.45z" fill="#377DFF"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.964 16.755a2.67 2.67 0 1 1 2.67 2.671 2.671 2.671 0 0 1-2.67-2.671zm-9.793 7.122a2.67 2.67 0 1 1 2.67 2.671 2.671 2.671 0 0 1-2.67-2.67z" fill="#377DFF"/>
+    <circle cx="20" cy="20" r="20" fill="#E5F1FF"/>
+    <circle cx="14" cy="17" r="4" fill="#377DFF"/>
+    <circle cx="25" cy="17" r="4" fill="#377DFF"/>
+    <circle cx="19.5" cy="15.5" r="6" fill="#377DFF" stroke="#E5F1FF"/>
+    <path d="M15 22a8 8 0 0 0-8 8h16a8 8 0 0 0-8-8z" fill="#B1CEFF"/>
+    <path d="M25 22a8 8 0 0 0-8 8h16a8 8 0 0 0-8-8z" fill="#B1CEFF"/>
+    <path d="M9.512 32.5c.26-5.567 4.857-10 10.488-10 5.631 0 10.227 4.433 10.488 10H9.512z" fill="#B1CEFF" stroke="#E5F1FF"/>
+</svg>

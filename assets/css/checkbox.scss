@@ -1,0 +1,43 @@
+@import '/src/assets/css/variables';
+
+.tk-checkbox input{
+  display: none;
+}
+.tk-checkbox input+label span{
+  border-radius: 3px;
+  border: solid 1px rgba(151, 151, 151, 0.53);
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: -3px;
+  transition: all 250ms ease;
+  // position: relative;
+  // top: 3PX;
+  margin-right: 3px;
+}
+.tk-checkbox input+label:hover span{
+  border: solid 1px $color-blue;
+}
+.tk-checkbox input:checked + label span{
+  background-color: $color-blue;
+  color: $color-white;
+  border: solid 1px $color-blue;  
+}
+.tk-checkbox input + label span:after {
+  content: '\f00c';
+  position: absolute;
+  top: 0;
+  left: 1px;
+  right: 0;
+  opacity:0;
+  line-height: 16px;
+  font-size: 12px;
+  font-family: fontawesome;
+}
+.tk-checkbox input:checked  + label span:after{
+  animation: load8 .5s;
+  opacity:1;
+}

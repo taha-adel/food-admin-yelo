@@ -1,0 +1,60 @@
+@import 'variables.scss';
+.nav-tab {
+  display: flex;
+  flex-direction: row;
+  ul{
+    text-align: center;
+    display: flex;
+    padding-left: 0;
+    li{
+        cursor: pointer;
+        border: 1px solid $color-blue; 
+        padding: 6px 17px;
+        list-style-type: none;
+        outline: none;
+        a{
+            font-family: $inter;
+            color: #474747;
+            font-size: 14px;
+        }
+        &.active{
+          border:0;
+          font-family: $inter;
+        }
+        &:hover a{
+            text-decoration: none;
+        }
+        &:first-child{
+            border-radius: 4px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        &:last-child{
+            border-radius: 4px;
+            border-left: 0;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+      }
+    }
+}
+.active{
+  background-color: $color-blue;
+  color: white;
+  a{
+      color: #fff!important;
+      text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .nav-tab{
+    ul li{
+      padding: 6px 35px;
+      white-space: nowrap;
+      a{
+        font-size: 16px;
+      }
+    }
+  }
+}

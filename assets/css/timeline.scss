@@ -1,0 +1,183 @@
+@import '/src/assets/css/variables';
+
+.detail-box {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding: 0 25px;
+  .content {
+    // padding: 18px 10px;
+    &:last-child {
+      padding: 0 10px;
+    }
+  }
+  /* The actual timeline (the vertical ruler) */
+  &:last-child {
+    &::after {
+      background-color: none;
+    }
+  }
+  &.addBackground {
+    &::after {
+      background-color: #2d4895;
+    }
+    .container {
+      &.statusColorTop, &.statusColorTop3, &.statusColorTop4 {
+        &::before {
+          background: #2d4895;
+          height: 49px;
+        }
+      }
+    }
+    
+  }
+  /* Container around content */
+  .container {
+    padding: 5px 40px 15px;
+    position: relative;
+    background-color: inherit;
+    &:last-child {
+      &::before {
+        background: none;
+      }
+      
+    }
+    &:first-child {
+      &::after {
+        // top: 18px;
+      }
+    }
+    &.statusColorTop, &.statusColorTop3, &.statusColorTop4 {
+      &:first-child {
+       padding: 18px 40px 15px; 
+      }
+      &::after {
+        top: 18px;
+      }
+    }
+  
+    /* The circles on the timeline */
+    &:before {
+      content: '';
+      position: absolute;
+      width: 2px;
+      background-color: #2d4895;
+      top: 0;
+      bottom: 0;
+      left: 17px;
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      right: -17px;
+      top: 0;
+      border-radius: 50%;
+      z-index: 1;
+    }
+    &.statusColor {
+      &::after {
+        background: url("/assets/images/submitted.png");
+      }
+    }
+    &.statusColorTop {
+      &::after {
+        background: url("/assets/images/submitted-active.png");
+      }
+    }
+  
+    &.statusColor1 {
+      &::after {
+        background: url("/assets/images/approved.png");
+      }
+    }
+    &.statusColorTop1 {
+      &::after {
+        background: url("/assets/images/approved-active.png");
+      }
+    }
+  
+    &.statusColor2 {
+      &::after {
+        background: url("/assets/images/rejected.png");
+      }
+    }
+    &.statusColorTop2 {
+      &::after {
+        background: url("/assets/images/rejected-active.png");
+      }
+    }
+  
+    &.statusColor3 {
+      &::after {
+        background: url("/assets/images/resubmitted.png");
+      }
+    }
+    &.statusColorTop3 {
+      &::after {
+        background: url("/assets/images/resubmitted-active.png");
+      }
+    }
+  
+    &.statusColor4 {
+      &::after {
+        background: url("/assets/images/resubmitted-after-approval.png");
+      }
+    }
+    &.statusColorTop4 {
+      &::after {
+        background: url("/assets/images/resubmitted-after-approval-active.png");
+      }
+    }
+  
+  }
+}
+
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: 2px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+  .statusDate {
+    font-size: 14px;
+    font-family: $inter;
+    margin-bottom: 2px;
+  }
+  .statusReason {
+    font-family: $inter;
+  }
+  .statusReasonLabel {
+    font-family: $inter;
+  }
+  .statusText {
+    margin-bottom: 2px;
+    font-size: 18px;
+  }
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+  /* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
+}
+
+.unapprovedText {
+  font-size: 16px;
+  font-family: $inter;
+}

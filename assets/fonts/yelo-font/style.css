@@ -1,0 +1,1252 @@
+@font-face {
+  font-family: 'yelo-font';
+  src:  url('fonts/yelo-font.eot?6ea2ow');
+  src:  url('fonts/yelo-font.eot?6ea2ow#iefix') format('embedded-opentype'),
+    url('fonts/yelo-font.ttf?6ea2ow') format('truetype'),
+    url('fonts/yelo-font.woff?6ea2ow') format('woff'),
+    url('fonts/yelo-font.svg?6ea2ow#yelo-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.yf {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'yelo-font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.yf-shutterstock_1557288026:before {
+  content: "\ea97";
+}
+.yf-cash:before {
+  content: "\ea96";
+}
+.yf-interface:before {
+  content: "\e900";
+}
+.yf-shutterstock_1197186454:before {
+  content: "\ea94";
+}
+.yf-Group-172x:before {
+  content: "\ea93";
+}
+.yf-Fill-844:before {
+  content: "\ea91";
+}
+.yf-Group-172x1:before {
+  content: "\ea92";
+}
+.yf-merchanticon:before {
+  content: "\ea8e";
+}
+.yf-phone-call:before {
+  content: "\ea8f";
+}
+.yf-browser:before {
+  content: "\ea90";
+}
+.yf-delivery-man:before {
+  content: "\ea8d";
+}
+.yf-loader:before {
+  content: "\ea8c";
+}
+.yf-www-1-1:before {
+  content: "\ea8b";
+}
+.yf-shutterstock-1405633748:before {
+  content: "\ea8a";
+}
+.yf-shutterstock-1247247169-2:before {
+  content: "\ea86";
+}
+.yf-noun-delivery-41222-2:before {
+  content: "\ea87";
+}
+.yf-product-2-2:before {
+  content: "\ea88";
+}
+.yf-noun-sign-2610345-1:before {
+  content: "\ea89";
+}
+.yf-CombinedShape-1:before {
+  content: "\ea85";
+  color: #4fda98;
+}
+.yf-CombinedShape:before {
+  content: "\e901";
+}
+.yf-hippo:before {
+  content: "\e902";
+}
+.yf-Artboard:before {
+  content: "\ea81";
+}
+.yf-gift:before {
+  content: "\ea80";
+}
+.yf-filter-tool:before {
+  content: "\ea7f";
+}
+.yf-push-campaigns-hippo:before {
+  content: "\ea7e";
+}
+.yf-computer:before {
+  content: "\e97e";
+}
+.yf-magnifier:before {
+  content: "\e97d";
+}
+.yf-notification:before {
+  content: "\e975";
+}
+.yf-text-tool-1:before {
+  content: "\e976";
+}
+.yf-noun-preferences-213427:before {
+  content: "\e977";
+}
+.yf-orders:before {
+  content: "\e978";
+}
+.yf-settings:before {
+  content: "\e979";
+}
+.yf-piggy-bank:before {
+  content: "\e97a";
+}
+.yf-ribbon-badge-award:before {
+  content: "\e97b";
+}
+.yf-megaphone:before {
+  content: "\e97c";
+}
+.yf-calendar-1:before {
+  content: "\e972";
+}
+.yf-calendar:before {
+  content: "\e973";
+}
+.yf-group-1:before {
+  content: "\e974";
+}
+.yf-a-14-ed-56-ddfcacb-72-a-659-bfb-301286-bd-9:before {
+  content: "\e96f";
+}
+.yf-lock-1:before {
+  content: "\e96e";
+}
+.yf-group:before {
+  content: "\e96c";
+}
+.yf-lock:before {
+  content: "\e96d";
+}
+.yf-admin-permissions:before {
+  content: "\e96a";
+}
+.yf-www:before {
+  content: "\e970";
+}
+.yf-banner:before {
+  content: "\e971";
+}
+.yf-arrow-right:before {
+  content: "\e969";
+}
+.yf-check-mark-button:before {
+  content: "\e95d";
+}
+.yf-exportss:before {
+  content: "\e95e";
+}
+.yf-exportss1:before {
+  content: "\e951";
+}
+.yf-loading:before {
+  content: "\e95f";
+}
+.yf-merchanticon1:before {
+  content: "\e960";
+}
+.yf-rating:before {
+  content: "\e963";
+}
+.yf-import:before {
+  content: "\e962";
+}
+.yf-expand:before {
+  content: "\e964";
+}
+.yf-shrink:before {
+  content: "\e965";
+}
+.yf-reward_icon:before {
+  content: "\e966";
+}
+.yf-rewards-cash:before {
+  content: "\e967";
+}
+.yf-loading1:before {
+  content: "\e968";
+}
+.yf-exportss2:before {
+  content: "\e961";
+}
+.yf-download-blue:before {
+  content: "\e92e";
+}
+.yf-info:before {
+  content: "\e950";
+}
+.yf-chat:before {
+  content: "\e917";
+}
+.yf-logout:before {
+  content: "\e95a";
+}
+.yf-points:before {
+  content: "\e957";
+}
+.yf-custom-order:before {
+  content: "\e958";
+}
+.yf-commission:before {
+  content: "\e959";
+}
+.yf-hippo1:before {
+  content: "\e96b";
+}
+.yf-export:before {
+  content: "\e956";
+}
+.yf-yelo-guide-icon:before {
+  content: "\e955";
+}
+.yf-exclamation-mark:before {
+  content: "\e94e";
+}
+.yf-shield:before {
+  content: "\e94f";
+}
+.yf-orders1:before {
+  content: "\e952";
+}
+.yf-product:before {
+  content: "\e953";
+}
+.yf-delivery:before {
+  content: "\e954";
+}
+.yf-checkout:before {
+  content: "\e949";
+}
+.yf-setup:before {
+  content: "\e94a";
+}
+.yf-design1:before {
+  content: "\e94b";
+}
+.yf-pages1:before {
+  content: "\e94c";
+}
+.yf-finance:before {
+  content: "\e94d";
+}
+.yf-more-settings:before {
+  content: "\e948";
+}
+.yf-no-notification:before {
+  content: "\e947";
+}
+.yf-tookan:before {
+  content: "\e946";
+}
+.yf-pages:before {
+  content: "\e945";
+}
+.yf-preferences:before {
+  content: "\e944";
+}
+.yf-payments:before {
+  content: "\e939";
+}
+.yf-stores:before {
+  content: "\e93d";
+}
+.yf-approve:before {
+  content: "\e93e";
+}
+.yf-catalog:before {
+  content: "\e93f";
+}
+.yf-category:before {
+  content: "\e940";
+}
+.yf-service:before {
+  content: "\e941";
+}
+.yf-contracts:before {
+  content: "\e942";
+}
+.yf-projects:before {
+  content: "\e943";
+}
+.yf-statistics:before {
+  content: "\e933";
+}
+.yf-business-category:before {
+  content: "\e934";
+}
+.yf-home:before {
+  content: "\e935";
+}
+.yf-percentage:before {
+  content: "\e937";
+}
+.yf-tasks-list:before {
+  content: "\e93a";
+}
+.yf-megaphone1:before {
+  content: "\e93b";
+}
+.yf-marketplace:before {
+  content: "\e93c";
+}
+.yf-credit-card:before {
+  content: "\e92f";
+}
+.yf-customer:before {
+  content: "\e932";
+}
+.yf-key:before {
+  content: "\e938";
+}
+.yf-design:before {
+  content: "\e929";
+}
+.yf-restaurant:before {
+  content: "\e92a";
+}
+.yf-invoice:before {
+  content: "\e92b";
+}
+.yf-arrow-down:before {
+  content: "\e92c";
+}
+.yf-notification1:before {
+  content: "\e92d";
+}
+.yf-extension:before {
+  content: "\e930";
+}
+.yf-settings1:before {
+  content: "\e931";
+}
+.yf-icon-search:before {
+  content: "\e936";
+}
+.yf-list:before {
+  content: "\e928";
+}
+.yf-delivery-truck:before {
+  content: "\e927";
+}
+.yf-idea:before {
+  content: "\e926";
+}
+.yf-multiple-files:before {
+  content: "\e925";
+}
+.yf-fork:before {
+  content: "\e924";
+}
+.yf-visibility:before {
+  content: "\e923";
+}
+.yf-notification11:before {
+  content: "\e915";
+}
+.yf-chat-support:before {
+  content: "\e913";
+}
+.yf-delivery-management:before {
+  content: "\e914";
+}
+.yf-checked-circle:before {
+  content: "\e90c";
+}
+.yf-drag-handle:before {
+  content: "\e90f";
+}
+.yf-delete-task:before {
+  content: "\e90e";
+}
+.yf-delete-regular:before {
+  content: "\e90d";
+}
+.yf-customer-import:before {
+  content: "\e90a";
+}
+.yf-enable-regular:before {
+  content: "\e904";
+}
+.yf-editpencil-regular:before {
+  content: "\e905";
+}
+.yf-disable-regular:before {
+  content: "\e906";
+}
+.yf-add-regular:before {
+  content: "\e907";
+}
+.yf-csv_upload:before {
+  content: "\e908";
+}
+.yf-grid:before {
+  content: "\e909";
+}
+.yf-close-solid:before {
+  content: "\e90b";
+}
+.yf-list-view:before {
+  content: "\e910";
+}
+.yf-box:before {
+  content: "\e922";
+}
+.yf-speaker:before {
+  content: "\e920";
+}
+.yf-speaker-off:before {
+  content: "\e921";
+}
+.yf-customers:before {
+  content: "\e91d";
+}
+.yf-promo:before {
+  content: "\e91e";
+}
+.yf-store:before {
+  content: "\e91f";
+}
+.yf-avatar:before {
+  content: "\e91c";
+}
+.yf-calendar1:before {
+  content: "\e919";
+}
+.yf-credit-card1:before {
+  content: "\e91a";
+}
+.yf-credit-card-with-cvv-code:before {
+  content: "\e91b";
+}
+.yf-categories:before {
+  content: "\e918";
+}
+.yf-customer-export:before {
+  content: "\e916";
+}
+.yf-monitor:before {
+  content: "\e912";
+}
+.yf-arrow-back:before {
+  content: "\e911";
+}
+.yf-logout_icon:before {
+  content: "\e903";
+}
+.yf-merchant_icon:before {
+  content: "\e95b";
+}
+.yf-order_icon:before {
+  content: "\e95c";
+}
+.yf-setting_icon:before {
+  content: "\e97f";
+}
+.yf-seo1:before {
+  content: "\e980";
+}
+.yf-seo:before {
+  content: "\e981";
+}
+.yf-computer1:before {
+  content: "\e982";
+}
+.yf-magnifier1:before {
+  content: "\e983";
+}
+.yf-notification2:before {
+  content: "\e984";
+}
+.yf-text-tool-11:before {
+  content: "\e985";
+}
+.yf-noun-preferences-2134271:before {
+  content: "\e986";
+}
+.yf-orders2:before {
+  content: "\e987";
+}
+.yf-settings2:before {
+  content: "\e988";
+}
+.yf-piggy-bank1:before {
+  content: "\e989";
+}
+.yf-ribbon-badge-award1:before {
+  content: "\e98a";
+}
+.yf-megaphone2:before {
+  content: "\e98b";
+}
+.yf-calendar-11:before {
+  content: "\e98c";
+}
+.yf-calendar2:before {
+  content: "\e98d";
+}
+.yf-group-11:before {
+  content: "\e98e";
+}
+.yf-a-14-ed-56-ddfcacb-72-a-659-bfb-301286-bd-91:before {
+  content: "\e98f";
+}
+.yf-lock-11:before {
+  content: "\e990";
+}
+.yf-group1:before {
+  content: "\e991";
+}
+.yf-lock1:before {
+  content: "\e992";
+}
+.yf-admin-permissions1:before {
+  content: "\e993";
+}
+.yf-www1:before {
+  content: "\e994";
+}
+.yf-banner1:before {
+  content: "\e995";
+}
+.yf-arrow-right1:before {
+  content: "\e996";
+}
+.yf-check-mark-button1:before {
+  content: "\e997";
+}
+.yf-exportss3:before {
+  content: "\e998";
+}
+.yf-exportss11:before {
+  content: "\e999";
+}
+.yf-loading2:before {
+  content: "\e99a";
+}
+.yf-merchanticon11:before {
+  content: "\e99b";
+}
+.yf-rating1:before {
+  content: "\e99c";
+}
+.yf-import1:before {
+  content: "\e99d";
+}
+.yf-expand1:before {
+  content: "\e99e";
+}
+.yf-shrink1:before {
+  content: "\e99f";
+}
+.yf-reward_icon1:before {
+  content: "\e9a0";
+}
+.yf-rewards-cash1:before {
+  content: "\e9a1";
+}
+.yf-loading11:before {
+  content: "\e9a2";
+}
+.yf-exportss21:before {
+  content: "\e9a3";
+}
+.yf-download-blue1:before {
+  content: "\e9a4";
+}
+.yf-info1:before {
+  content: "\e9a5";
+}
+.yf-chat1:before {
+  content: "\e9a6";
+}
+.yf-logout1:before {
+  content: "\e9a7";
+}
+.yf-points1:before {
+  content: "\e9a8";
+}
+.yf-custom-order1:before {
+  content: "\e9a9";
+}
+.yf-commission1:before {
+  content: "\e9aa";
+}
+.yf-hippo11:before {
+  content: "\e9ab";
+}
+.yf-export1:before {
+  content: "\e9ac";
+}
+.yf-yelo-guide-icon1:before {
+  content: "\e9ad";
+}
+.yf-exclamation-mark1:before {
+  content: "\e9ae";
+}
+.yf-shield1:before {
+  content: "\e9af";
+}
+.yf-orders11:before {
+  content: "\e9b0";
+}
+.yf-product1:before {
+  content: "\e9b1";
+}
+.yf-delivery1:before {
+  content: "\e9b2";
+}
+.yf-checkout1:before {
+  content: "\e9b3";
+}
+.yf-setup1:before {
+  content: "\e9b4";
+}
+.yf-design11:before {
+  content: "\e9b5";
+}
+.yf-pages11:before {
+  content: "\e9b6";
+}
+.yf-finance1:before {
+  content: "\e9b7";
+}
+.yf-more-settings1:before {
+  content: "\e9b8";
+}
+.yf-no-notification1:before {
+  content: "\e9b9";
+}
+.yf-tookan1:before {
+  content: "\e9ba";
+}
+.yf-pages2:before {
+  content: "\e9bb";
+}
+.yf-preferences1:before {
+  content: "\e9bc";
+}
+.yf-payments1:before {
+  content: "\e9bd";
+}
+.yf-stores1:before {
+  content: "\e9be";
+}
+.yf-approve1:before {
+  content: "\e9bf";
+}
+.yf-catalog1:before {
+  content: "\e9c0";
+}
+.yf-category1:before {
+  content: "\e9c1";
+}
+.yf-service1:before {
+  content: "\e9c2";
+}
+.yf-contracts1:before {
+  content: "\e9c3";
+}
+.yf-projects1:before {
+  content: "\e9c4";
+}
+.yf-statistics1:before {
+  content: "\e9c5";
+}
+.yf-business-category1:before {
+  content: "\e9c6";
+}
+.yf-home1:before {
+  content: "\e9c7";
+}
+.yf-percentage1:before {
+  content: "\e9c8";
+}
+.yf-tasks-list1:before {
+  content: "\e9c9";
+}
+.yf-megaphone11:before {
+  content: "\e9ca";
+}
+.yf-marketplace1:before {
+  content: "\e9cb";
+}
+.yf-credit-card2:before {
+  content: "\e9cc";
+}
+.yf-customer1:before {
+  content: "\e9cd";
+}
+.yf-key1:before {
+  content: "\e9ce";
+}
+.yf-design2:before {
+  content: "\e9cf";
+}
+.yf-restaurant1:before {
+  content: "\e9d0";
+}
+.yf-invoice1:before {
+  content: "\e9d1";
+}
+.yf-arrow-down1:before {
+  content: "\e9d2";
+}
+.yf-notification12:before {
+  content: "\e9d3";
+}
+.yf-extension1:before {
+  content: "\e9d4";
+}
+.yf-settings11:before {
+  content: "\e9d5";
+}
+.yf-icon-search1:before {
+  content: "\e9d6";
+}
+.yf-list1:before {
+  content: "\e9d7";
+}
+.yf-delivery-truck1:before {
+  content: "\e9d8";
+}
+.yf-idea1:before {
+  content: "\e9d9";
+}
+.yf-multiple-files1:before {
+  content: "\e9da";
+}
+.yf-fork1:before {
+  content: "\e9db";
+}
+.yf-visibility1:before {
+  content: "\e9dc";
+}
+.yf-notification111:before {
+  content: "\e9dd";
+}
+.yf-chat-support1:before {
+  content: "\e9de";
+}
+.yf-delivery-management1:before {
+  content: "\e9df";
+}
+.yf-checked-circle1:before {
+  content: "\e9e0";
+}
+.yf-drag-handle1:before {
+  content: "\e9e1";
+}
+.yf-delete-task1:before {
+  content: "\e9e2";
+}
+.yf-delete-regular1:before {
+  content: "\e9e3";
+}
+.yf-customer-import1:before {
+  content: "\e9e4";
+}
+.yf-enable-regular1:before {
+  content: "\e9e5";
+}
+.yf-editpencil-regular1:before {
+  content: "\e9e6";
+}
+.yf-disable-regular1:before {
+  content: "\e9e7";
+}
+.yf-add-regular1:before {
+  content: "\e9e8";
+}
+.yf-csv_upload1:before {
+  content: "\e9e9";
+}
+.yf-grid1:before {
+  content: "\e9ea";
+}
+.yf-close-solid1:before {
+  content: "\e9eb";
+}
+.yf-list-view1:before {
+  content: "\e9ec";
+}
+.yf-box1:before {
+  content: "\e9ed";
+}
+.yf-speaker1:before {
+  content: "\e9ee";
+}
+.yf-speaker-off1:before {
+  content: "\e9ef";
+}
+.yf-customers1:before {
+  content: "\e9f0";
+}
+.yf-promo1:before {
+  content: "\e9f1";
+}
+.yf-store1:before {
+  content: "\e9f2";
+}
+.yf-avatar1:before {
+  content: "\e9f3";
+}
+.yf-calendar11:before {
+  content: "\e9f4";
+}
+.yf-credit-card11:before {
+  content: "\e9f5";
+}
+.yf-credit-card-with-cvv-code1:before {
+  content: "\e9f6";
+}
+.yf-categories1:before {
+  content: "\e9f7";
+}
+.yf-customer-export1:before {
+  content: "\e9f8";
+}
+.yf-monitor1:before {
+  content: "\e9f9";
+}
+.yf-arrow-back1:before {
+  content: "\e9fa";
+}
+.yf-logout_icon1:before {
+  content: "\e9fb";
+}
+.yf-merchant_icon1:before {
+  content: "\e9fc";
+}
+.yf-order_icon1:before {
+  content: "\e9fd";
+}
+.yf-setting_icon1:before {
+  content: "\e9fe";
+}
+.yf-seo11:before {
+  content: "\e9ff";
+}
+.yf-seo2:before {
+  content: "\ea00";
+}
+.yf-push-campaigns-hippo1:before {
+  content: "\ea01";
+}
+.yf-computer11:before {
+  content: "\ea02";
+}
+.yf-magnifier11:before {
+  content: "\ea03";
+}
+.yf-notification21:before {
+  content: "\ea04";
+}
+.yf-text-tool-111:before {
+  content: "\ea05";
+}
+.yf-noun-preferences-21342711:before {
+  content: "\ea06";
+}
+.yf-orders21:before {
+  content: "\ea07";
+}
+.yf-settings21:before {
+  content: "\ea08";
+}
+.yf-piggy-bank11:before {
+  content: "\ea09";
+}
+.yf-ribbon-badge-award11:before {
+  content: "\ea0a";
+}
+.yf-megaphone21:before {
+  content: "\ea0b";
+}
+.yf-calendar-111:before {
+  content: "\ea0c";
+}
+.yf-calendar21:before {
+  content: "\ea0d";
+}
+.yf-group-111:before {
+  content: "\ea0e";
+}
+.yf-a-14-ed-56-ddfcacb-72-a-659-bfb-301286-bd-911:before {
+  content: "\ea0f";
+}
+.yf-lock-111:before {
+  content: "\ea10";
+}
+.yf-group11:before {
+  content: "\ea11";
+}
+.yf-lock11:before {
+  content: "\ea12";
+}
+.yf-admin-permissions11:before {
+  content: "\ea13";
+}
+.yf-www11:before {
+  content: "\ea14";
+}
+.yf-banner11:before {
+  content: "\ea15";
+}
+.yf-arrow-right11:before {
+  content: "\ea16";
+}
+.yf-check-mark-button11:before {
+  content: "\ea17";
+}
+.yf-exportss31:before {
+  content: "\ea18";
+}
+.yf-exportss111:before {
+  content: "\ea19";
+}
+.yf-loading21:before {
+  content: "\ea1a";
+}
+.yf-merchanticon111:before {
+  content: "\ea1b";
+}
+.yf-rating11:before {
+  content: "\ea1c";
+}
+.yf-import11:before {
+  content: "\ea1d";
+}
+.yf-expand11:before {
+  content: "\ea1e";
+}
+.yf-shrink11:before {
+  content: "\ea1f";
+}
+.yf-reward_icon11:before {
+  content: "\ea20";
+}
+.yf-rewards-cash11:before {
+  content: "\ea21";
+}
+.yf-loading111:before {
+  content: "\ea22";
+}
+.yf-exportss211:before {
+  content: "\ea23";
+}
+.yf-download-blue11:before {
+  content: "\ea24";
+}
+.yf-info11:before {
+  content: "\ea25";
+}
+.yf-chat11:before {
+  content: "\ea26";
+}
+.yf-logout11:before {
+  content: "\ea27";
+}
+.yf-points11:before {
+  content: "\ea28";
+}
+.yf-custom-order11:before {
+  content: "\ea29";
+}
+.yf-commission11:before {
+  content: "\ea2a";
+}
+.yf-hippo111:before {
+  content: "\ea2b";
+}
+.yf-export11:before {
+  content: "\ea2c";
+}
+.yf-yelo-guide-icon11:before {
+  content: "\ea2d";
+}
+.yf-exclamation-mark11:before {
+  content: "\ea2e";
+}
+.yf-shield11:before {
+  content: "\ea2f";
+}
+.yf-orders111:before {
+  content: "\ea30";
+}
+.yf-product11:before {
+  content: "\ea31";
+}
+.yf-delivery11:before {
+  content: "\ea32";
+}
+.yf-checkout11:before {
+  content: "\ea33";
+}
+.yf-setup11:before {
+  content: "\ea34";
+}
+.yf-design111:before {
+  content: "\ea35";
+}
+.yf-pages111:before {
+  content: "\ea36";
+}
+.yf-finance11:before {
+  content: "\ea37";
+}
+.yf-more-settings11:before {
+  content: "\ea38";
+}
+.yf-no-notification11:before {
+  content: "\ea39";
+}
+.yf-tookan11:before {
+  content: "\ea3a";
+}
+.yf-pages21:before {
+  content: "\ea3b";
+}
+.yf-preferences11:before {
+  content: "\ea3c";
+}
+.yf-payments11:before {
+  content: "\ea3d";
+}
+.yf-stores11:before {
+  content: "\ea3e";
+}
+.yf-approve11:before {
+  content: "\ea3f";
+}
+.yf-catalog11:before {
+  content: "\ea40";
+}
+.yf-category11:before {
+  content: "\ea41";
+}
+.yf-service11:before {
+  content: "\ea42";
+}
+.yf-contracts11:before {
+  content: "\ea43";
+}
+.yf-projects11:before {
+  content: "\ea44";
+}
+.yf-statistics11:before {
+  content: "\ea45";
+}
+.yf-business-category11:before {
+  content: "\ea46";
+}
+.yf-home11:before {
+  content: "\ea47";
+}
+.yf-percentage11:before {
+  content: "\ea48";
+}
+.yf-tasks-list11:before {
+  content: "\ea49";
+}
+.yf-megaphone111:before {
+  content: "\ea4a";
+}
+.yf-marketplace11:before {
+  content: "\ea4b";
+}
+.yf-credit-card21:before {
+  content: "\ea4c";
+}
+.yf-customer11:before {
+  content: "\ea4d";
+}
+.yf-key11:before {
+  content: "\ea4e";
+}
+.yf-design21:before {
+  content: "\ea4f";
+}
+.yf-restaurant11:before {
+  content: "\ea50";
+}
+.yf-invoice11:before {
+  content: "\ea51";
+}
+.yf-arrow-down11:before {
+  content: "\ea52";
+}
+.yf-notification121:before {
+  content: "\ea53";
+}
+.yf-extension11:before {
+  content: "\ea54";
+}
+.yf-settings111:before {
+  content: "\ea55";
+}
+.yf-icon-search11:before {
+  content: "\ea56";
+}
+.yf-list11:before {
+  content: "\ea57";
+}
+.yf-delivery-truck11:before {
+  content: "\ea58";
+}
+.yf-idea11:before {
+  content: "\ea59";
+}
+.yf-multiple-files11:before {
+  content: "\ea5a";
+}
+.yf-fork11:before {
+  content: "\ea5b";
+}
+.yf-visibility11:before {
+  content: "\ea5c";
+}
+.yf-notification1111:before {
+  content: "\ea5d";
+}
+.yf-chat-support11:before {
+  content: "\ea5e";
+}
+.yf-delivery-management11:before {
+  content: "\ea5f";
+}
+.yf-checked-circle11:before {
+  content: "\ea60";
+}
+.yf-drag-handle11:before {
+  content: "\ea61";
+}
+.yf-delete-task11:before {
+  content: "\ea62";
+}
+.yf-delete-regular11:before {
+  content: "\ea63";
+}
+.yf-customer-import11:before {
+  content: "\ea64";
+}
+.yf-enable-regular11:before {
+  content: "\ea65";
+}
+.yf-editpencil-regular11:before {
+  content: "\ea66";
+}
+.yf-disable-regular11:before {
+  content: "\ea67";
+}
+.yf-add-regular11:before {
+  content: "\ea68";
+}
+.yf-csv_upload11:before {
+  content: "\ea69";
+}
+.yf-grid11:before {
+  content: "\ea6a";
+}
+.yf-close-solid11:before {
+  content: "\ea6b";
+}
+.yf-list-view11:before {
+  content: "\ea6c";
+}
+.yf-box11:before {
+  content: "\ea6d";
+}
+.yf-speaker11:before {
+  content: "\ea6e";
+}
+.yf-speaker-off11:before {
+  content: "\ea6f";
+}
+.yf-customers11:before {
+  content: "\ea70";
+}
+.yf-promo11:before {
+  content: "\ea71";
+}
+.yf-store11:before {
+  content: "\ea72";
+}
+.yf-avatar11:before {
+  content: "\ea73";
+}
+.yf-calendar111:before {
+  content: "\ea74";
+}
+.yf-credit-card111:before {
+  content: "\ea75";
+}
+.yf-credit-card-with-cvv-code11:before {
+  content: "\ea76";
+}
+.yf-categories11:before {
+  content: "\ea77";
+}
+.yf-customer-export11:before {
+  content: "\ea78";
+}
+.yf-monitor11:before {
+  content: "\ea79";
+}
+.yf-arrow-back11:before {
+  content: "\ea7a";
+}
+.yf-logout_icon11:before {
+  content: "\ea7b";
+}
+.yf-merchant_icon11:before {
+  content: "\ea7c";
+}
+.yf-order_icon11:before {
+  content: "\ea7d";
+}
+.yf-setting_icon11:before {
+  content: "\ea82";
+}
+.yf-seo111:before {
+  content: "\ea83";
+}
+.yf-seo21:before {
+  content: "\ea84";
+}
+.yf-metrcicon:before {
+  content: "\ea95";
+}

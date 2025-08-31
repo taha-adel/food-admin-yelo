@@ -1,0 +1,38 @@
+<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <mask id="19zvgc1w7a" fill="#fff">
+        <rect width="6.471" height="6.471" rx="1"/>
+    </mask>
+    <rect width="6.471" height="6.471" rx="1" stroke="#8A94A6" stroke-width="3" mask="url(#19zvgc1w7a)"/>
+    <mask id="kvypo5x1fb" fill="#fff">
+        <rect y="7.765" width="6.471" height="6.471" rx="1"/>
+    </mask>
+    <rect y="7.765" width="6.471" height="6.471" rx="1" stroke="#8A94A6" stroke-width="3" mask="url(#kvypo5x1fb)"/>
+    <mask id="gdgz8aau4c" fill="#fff">
+        <rect y="15.529" width="6.471" height="6.471" rx="1"/>
+    </mask>
+    <rect y="15.529" width="6.471" height="6.471" rx="1" stroke="#8A94A6" stroke-width="3" mask="url(#gdgz8aau4c)"/>
+    <mask id="n2mlltg58d" fill="#fff">
+        <rect x="7.765" width="6.471" height="6.471" rx="1"/>
+    </mask>
+    <rect x="7.765" width="6.471" height="6.471" rx="1" stroke="#8A94A6" stroke-width="3" mask="url(#n2mlltg58d)"/>
+    <mask id="kr1mfherge" fill="#fff">
+        <rect x="7.765" y="7.765" width="6.471" height="6.471" rx="1"/>
+    </mask>
+    <rect x="7.765" y="7.765" width="6.471" height="6.471" rx="1" stroke="#8A94A6" stroke-width="3" mask="url(#kr1mfherge)"/>
+    <mask id="bp6uce1eof" fill="#fff">
+        <rect x="7.765" y="15.529" width="6.471" height="6.471" rx="1"/>
+    </mask>
+    <rect x="7.765" y="15.529" width="6.471" height="6.471" rx="1" stroke="#8A94A6" stroke-width="3" mask="url(#bp6uce1eof)"/>
+    <mask id="ylp4445clg" fill="#fff">
+        <rect x="15.529" width="6.471" height="6.471" rx="1"/>
+    </mask>
+    <rect x="15.529" width="6.471" height="6.471" rx="1" stroke="#8A94A6" stroke-width="3" mask="url(#ylp4445clg)"/>
+    <mask id="4clunw1gqh" fill="#fff">
+        <rect x="15.529" y="7.765" width="6.471" height="6.471" rx="1"/>
+    </mask>
+    <rect x="15.529" y="7.765" width="6.471" height="6.471" rx="1" stroke="#8A94A6" stroke-width="3" mask="url(#4clunw1gqh)"/>
+    <mask id="3y258s414i" fill="#fff">
+        <rect x="15.529" y="15.529" width="6.471" height="6.471" rx="1"/>
+    </mask>
+    <rect x="15.529" y="15.529" width="6.471" height="6.471" rx="1" stroke="#8A94A6" stroke-width="3" mask="url(#3y258s414i)"/>
+</svg>

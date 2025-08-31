@@ -1,0 +1,70 @@
+@import '/src/assets/css/variables';
+
+.image-upload{
+  display: table;
+  vertical-align: middle;
+  width: 100%;
+  position: relative;
+  .image-upload-input{
+    position: absolute !important;
+    height: 40px;
+    width: 100%;
+    opacity: 0;
+    //visibility: hidden;
+  }
+  .add-image{
+    margin: 0;
+    color: $color-light-gray;
+    cursor: pointer;
+    img{
+      max-width: 120px;
+      max-height: 100px;
+    }
+  }
+  .add-image-content{
+    font-size: 14px;
+    text-align: left;
+    color: $color-gray-dark;
+    display: table-cell;
+    line-height: 1.3;
+    padding-left: 15px;
+    font-family: $inter;
+    margin-left: 13px;
+    vertical-align: middle;
+    .tk-link.browse{
+      display: inline-block;
+      padding: 0 3px;
+    }
+  }
+}
+
+.file-outer {
+  display: table;
+  position: relative;
+  input {
+      opacity: 0;
+      position: absolute !important;
+      height: 100%;
+      z-index: 2;
+      width: 100%;
+      display: block;
+  }
+  .browse-text {
+      display: table-cell;
+      vertical-align: middle;
+      width: 100%;
+      text-align: center;
+      .upload-csv-img {
+          height: 50px;
+          margin-bottom: 5px;
+          vertical-align: middle;
+          border: 0;
+      }
+      .add-image-content label{
+        display: inline-block !important;
+        margin-right: 0;
+      }
+  }
+}
+
+

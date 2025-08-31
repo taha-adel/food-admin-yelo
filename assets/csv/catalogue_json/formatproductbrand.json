@@ -1,0 +1,31 @@
+[
+    {
+      "Product Name": "dummy_product",
+      "Product Price": 12,
+      "Product Description": "",
+      "Product Long Description": "",
+      "Product Image Url": "https://cdn.ec2dashboard.com/task_images/gKbD1600930270232-SQHT1552307572378productimage.jpg",
+      "Cost Price": 0,
+      "Side Order": 0,
+      "Product Id*": 0,
+      "Enable": 1,
+      "Delete": 0,
+      "taxId": 0,
+      "SKU": "",
+      "MRP": 0,
+      "Is Veg": 0,
+      "Search Tags": "",
+      "Available Quantity": 0,
+      "Inventory": 0,
+      "Inventory Type": 0,
+      "Product Name English": "dummy_product",
+      "Product Name French": "",
+      "Product Name Spanish": "",
+      "Product Description English": "",
+      "Product Description French": "",
+      "Product Description Spanish": "",
+      "Long Description English": "",
+      "Long Description French": "",
+      "Long Description Spanish": ""
+    }
+   ]

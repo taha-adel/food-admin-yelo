@@ -1,0 +1,216 @@
+@import '/src/assets/css/variables';
+
+:host ::ng-deep .ui-carousel {
+    position: relative;
+    padding: .063em;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-viewport .ui-carousel-items {
+    list-style: none outside none;
+    margin: 0;
+    padding:0;
+    position: relative;
+    width: 32000px;
+    left: 0;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-viewport .ui-carousel-items .ui-carousel-item {
+    margin: 1px;
+    padding: 0;
+    float: left;
+    box-sizing: border-box;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-viewport {
+    overflow: hidden;
+    position: relative;
+    border: 0;
+    // padding: 20px 0px;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-footer {
+    margin: 1px 1px 0px 1px;
+    padding: .5em;
+    overflow: hidden;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-header {
+    margin: 0 1px;
+    overflow: hidden;
+    padding: .125em;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-header .ui-carousel-header-title {
+    display: inline-block;
+    overflow: hidden;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-dropdown,
+.ui-carousel .ui-carousel-mobiledropdown {
+    float: right;
+    margin: 0px .625em;
+    background-image: none;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-dropdown option,
+.ui-carousel .ui-carousel-mobiledropdown option{
+    background-image: none;
+    border: 0 none;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-button {
+    float: right;
+    margin: .125em;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-page-link {
+    float: left;
+    margin: 0 .125em;
+    text-decoration: none;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-page-link, 
+.ui-carousel .ui-carousel-button {
+    cursor: pointer;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-page-links {
+    margin: 0px .5em;
+    margin-top: .125em;
+    float: right;
+}
+
+:host ::ng-deep .ui-carousel .ui-carousel-mobiledropdown {
+    display: none;
+}
+
+
+
+
+  .ui-carousel-prev-button {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, transparent), to(transparent)) !important;
+  }
+  .ui-carousel-next-button {
+     background-image: -webkit-gradient(linear, left top, right top, color-stop(0, transparent), to(transparent)) !important;
+  }
+
+  :host ::ng-deep .ui-carousel-button{
+    // width: 50px !important;f061
+    opacity: 1 !important;
+    cursor: pointer;
+    &.ui-carousel-prev-button{
+      width: 38px;
+      height: 38px;
+      // margin-top: -10px;
+      font-size: 13px;
+      background-color: #fff;
+      border-radius: 50%;
+      padding-top: 13px;
+      color: #9B9B9B;
+      left: -25px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 5;
+      display: inline-block;
+      text-align: center;
+      box-shadow: -1px 1px 2px 1px #dedede;
+      &:hover {
+        color: $color-primary;
+      }
+        
+    }
+    &.ui-carousel-next-button{
+      width: 38px;
+      height: 38px;
+      // margin-top: -10px;
+      font-size: 13px;
+      background-color: #fff;
+      border-radius: 50%;
+      padding-top: 13px;
+      color: #9B9B9B;
+      right: -30px;
+    //   right: 15px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 5;
+      display: inline-block;
+      text-align: center;
+      box-shadow: 1px 1px 2px 1px #dedede;
+      // &::before{
+      //   .pi-arrow-circle-right:before {
+      //     content: '\e91b' !important;
+      //     }
+      // }
+      &:hover {
+        color: $color-primary;
+      }
+    }
+
+
+  }
+
+
+
+:host ::ng-deep .ui-carousel{
+  background: transparent;
+  border: none;
+  .ui-carousel-page-links{
+    display: none;
+  }
+  .ui-carousel-mobiledropdown{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :host ::ng-deep .ui-carousel .ui-carousel-mobiledropdown{
+    display: none !important;
+  }
+}
+:host ::ng-deep .ui-carousel .ui-carousel-mobiledropdown{
+  display: none !important;
+}
+ 
+.lastPage .ui-carousel-next-button{
+  display: none
+}
+
+:host ::ng-deep .lastPage .ui-carousel-next-button{
+  display: none !important;
+}
+
+:host ::ng-deep .firstPage .ui-carousel-prev-button{
+  display: none !important;
+}
+
+
+:host ::ng-deep .ui-widget-header{
+//   position: absolute;
+  background: transparent;
+  height: 0;
+  width: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+//   top: 36px;
+}
+
+
+:host ::ng-deep .ui-carousel-button.ui-carousel-prev-button.pi.pi-arrow-circle-left::before{
+  content: '\e91a' !important;
+ 
+}
+:host ::ng-deep .ui-carousel-button.ui-carousel-next-button.pi.pi-arrow-circle-right::before{
+  content: '\e91b' !important;
+  
+}
+
+
+:host ::ng-deep .ui-carousel.ui-widget {
+  padding: 0 20px !important;
+}
